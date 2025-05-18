@@ -62,5 +62,82 @@ main .main-input-container{
     justify-content: center;
     align-items: center;
 }
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: rgba(223, 225, 229, 1);
+    border-radius: 100px;
+}
+main .main-input .search-icon { 
+    background-image: 
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: contain; 
+    width: 18px; 
+    height: 18px; 
+} 
+main .main-input .micro-icon { 
+    background-image: 
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: contain; 
+    width: 18px; 
+    height: 18px; 
+    cursor: pointer;
+}
+main .main-buttons { 
+    width: 530px; 
+    margin: 0 auto; 
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button { 
+    height: 36px; 
+    background-color: #f2f2f2; 
+    border: 1px solid #f2f2f2; 
+    font-size: 14px; 
+    color: #5f6368; 
+    border-radius: 5px; 
+    padding: 0 15px; 
+    margin-right: 15px; 
+}
+main .main-buttons button:hover { 
+    border: 1px solid #c6c6c6; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+    color: #222; 
+    background-color: #f8f8f8;
+    cursor: pointer
+}
 
+footer {
+    background-color: #f2f2f2;
+    margin-top: 445px;
+    width: 100%;
+}
+footer .footer-info-left{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    text-decoration: none;
+}
+footer .footer-info-right{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+footer a{
+    font-size: 15px;
+    color: #70757a;
+    margin: 10px;
+}
 
